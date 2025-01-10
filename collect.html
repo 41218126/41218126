@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人收藏網頁</title>
+    <link rel="stylesheet" href="collect.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="button">返回首頁</a>
+    </header>
+
+    <div class="collect-container">
+        <div class="collect-photo">
+            <img src="path/to/your/collect-photo1.jpg" alt="收藏物品1" id="photo1">
+        </div>
+        <div class="collect-photo">
+            <img src="path/to/your/collect-photo2.jpg" alt="收藏物品2" id="photo2">
+        </div>
+        <div class="collect-photo">
+            <img src="path/to/your/collect-photo3.jpg" alt="收藏物品3" id="photo3">
+        </div>
+
+        <div class="buttons">
+            <button onclick="changePhoto(-1)">上一項收藏</button>
+            <button onclick="changePhoto(1)">下一項收藏</button>
+        </div>
+    </div>
+
+    <script src="collect.js"></script>
+</body>
+</html>

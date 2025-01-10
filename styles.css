@@ -1,0 +1,59 @@
+/* 1. 整頁背景設為淺黃色 */
+body {
+    background-color: #fef3b0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. 學號和姓名樣式 */
+.info-box {
+    background-color: #d2b99e; /* 淺棕色背景 */
+    color: #6f4f1a; /* 咖啡色文字 */
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #6f4f1a; /* 咖啡色框線 */
+    border-radius: 6px; /* 圓角 */
+}
+
+/* 3. 個人相片樣式 */
+.photo img {
+    width: 400px;
+    height: 300px;
+    border: 3px solid green; /* 綠色框線 */
+    border-radius: 10px; /* 圓角 */
+}
+
+/* 4. 連結到外部網站按鈕 */
+.external-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #008CBA;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.external-link:hover {
+    background-color: #005f73;
+}
+
+/* 5. 最上方個人收藏網頁按鈕 */
+header .button {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+header .button:hover {
+    background-color: #e03e24;
+}
